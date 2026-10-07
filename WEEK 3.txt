@@ -1,0 +1,49 @@
+4.3 (3) Categorize the relationships into generalization, aggregation, or association.
+
+a. A country has a capital city.
+- Classification: Association (or Aggregation)
+- Explanation: Country and City are independent entities. A city is part of a country conceptually, but they exist as distinct objects connected by a 1-to-1 link.
+
+b. A dining philosopher uses a fork.
+- Classification: Association
+- Explanation: The philosopher and fork are separate objects that interact temporarily. Neither inherits from the other, nor is one a part of the other.
+
+c. A file is an ordinary file or a directory file.
+- Classification: Generalization
+- Explanation: "File" acts as a superclass, while "Ordinary File" and "Directory File" are specialized subclasses representing an "is-a" relationship.
+
+d. Files contain records.
+- Classification: Aggregation
+- Explanation: Represents a whole-part structure where a File is the container object composed of constituent Record parts.
+
+e. A polygon is composed of an ordered set of points.
+- Classification: Aggregation (Composition)
+- Explanation: The phrase "is composed of" signifies that points are fundamental constituent parts that make up a whole polygon.
+
+f. A drawing object is text, a geometrical object, or a group.
+- Classification: Generalization
+- Explanation: Text, geometrical objects, and groups are specific types that inherit characteristics from a general "Drawing Object" base class.
+
+g. A person uses a computer language on a project.
+- Classification: N-ary Association (Ternary)
+- Explanation: A three-way relationship connecting three independent classes (Person, Computer Language, and Project) of equal stature.
+
+h. Modems and keyboards are input/output devices.
+- Classification: Generalization
+- Explanation: Modems and Keyboards are specific instances (subclasses) of the broader, more general category Input/Output Device.
+
+i. Classes may have several attributes.
+- Classification: Aggregation
+- Explanation: Attributes are structural components that are conceptually part of the definition of a Class.
+
+j. A person plays for a team in a certain year.
+- Classification: N-ary Association (Ternary)
+- Explanation: Links three distinct classes (Person, Team, and Year) to describe a complex contract or historical event.
+
+k. A route connects two cities.
+- Classification: Association
+- Explanation: A straightforward binary relationship that forms a structural link connecting two separate City instances.
+
+l. A student takes a course from a professor.
+- Classification: N-ary Association (Ternary)
+- Explanation: A three-way association describing an educational interaction involving a Student, a Course, and a Professor.
